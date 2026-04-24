@@ -11,3 +11,14 @@
 .bgcolor-main {
   background-color: rgb(74, 74, 74);
 }
+
+#h2-de-bienvenida {
+  font-size: 40px;
+}
+
+#aaa {
+  width: 150px;
+  padding: 15px;
+  font-size: large;
+  margin: 15px;
+}
