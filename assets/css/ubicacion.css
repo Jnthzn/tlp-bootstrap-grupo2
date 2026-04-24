@@ -1,11 +1,9 @@
 #nuestras {
-    
   margin-left: 55px;
   font-size: 90px;
 
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
 
 .sucursales {
   display: inline-block;
@@ -29,5 +27,24 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(../img/fondo-pedir.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
