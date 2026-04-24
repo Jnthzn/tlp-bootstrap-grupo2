@@ -1,8 +1,8 @@
 body {
-  background-color: #121212 !important;
-  color: rgb(43, 43, 43);
-  font-family: Arial, sans-serif;
+  background-image: url(../img/fondo-pedir.png);
+  background-size: cover;
 }
+
 
 .card h1, h4, h5, p {
   color: white;

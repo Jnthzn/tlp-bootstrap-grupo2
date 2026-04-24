@@ -4,6 +4,11 @@
   overflow: hidden;
 }
 
+body {
+  background-image: url(../img/fondo-pedir.png);
+  background-size: cover;
+}
+
 .quincy-logo {
   border-radius: 50px;
 }
