@@ -4,60 +4,102 @@ main {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(49, 49, 49);
-  padding: 20px;
-}
+  background-color: #1a1a1a;
+  }
 
 /* TARJETA */
 .card {
-  background-color: #1e1e1e;
+  background-color: rgba(255, 255, 255, 0.795);
   color: white;
-  padding: 30px;
-  border-radius: 12px;
-  width: 100%;
-  max-width: 500px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  padding: 25px;
+  border-radius: 15px;
+  width: 60%;
+  margin: 80px;
+  box-shadow: 0 0 20px rgba(225, 0, 0, 0.3);
+  animation: aparecer 0.6s ease;
 }
 
 /* TITULOS */
 .card h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: rgb(241, 21, 21);
 }
 
 .card h2 {
+  margin-top: 20px;
+  font-size: 25px;
+  color: #111;
+font-weight: bold;
+}
+
+.card p {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-bottom: 10px;
+  color: #111;
+}
+
+iframe {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  height: 200px;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
   margin-top: 15px;
 }
 
-/* INPUTS Y TEXTAREA */
-.card input,
-.card textarea {
-  width: 100%;
-  padding: 10px;
-  margin-top: 8px;
-  border-radius: 6px;
-  border: none;
-  outline: none;
+input, textarea, select{
+margin-bottom: 10px;
+padding: 10px;
+border: 1px solid #ccc; 
+border-radius: 8px;
+font-size: 14px;
+transition: 0.3s;  
 }
-
-.card textarea {
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #ff4d4d;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255, 77, 77, 0.5);
+}
+textarea {
   resize: none;
   height: 80px;
 }
-
-/* BOTÓN */
-#Enviar {
-  margin-top: 15px;
+button {
   padding: 10px;
-  width: 100%;
-  border: none;
-  border-radius: 6px;
-  background-color: #4caf50;
+  background-color: #ff3c3c;
+  font-weight: bold;
   color: white;
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  font-weight: bold;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #ff0000;
+  transform: scale(1.05);
 }
 
-#Enviar:hover {
-  background-color: #45a049;
+.opciones {
+  font-weight: bold;
 }
+
+.informacion {
+  font-weight: bold;
+}
+
+#parrafo1 {
+text-align: center;
+} 
+
+ 
